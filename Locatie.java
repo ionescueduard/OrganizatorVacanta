@@ -21,11 +21,11 @@ public class Locatie {
 	@SuppressWarnings("deprecation")
 	@Override
 	public String toString() {
-		return numeLocatie + 
+		return numeLocatie + ", Oras: " + oras + ", " +
 			   ", Pret: " + pretPerZi + " euro/zi, Activitati: " + activitati + 
-			   ", Incepand din data de: " + deCand.getDay() + "/"
+			   ", Incepand din data de: " + deCand.getDate() + "/"
 										  + deCand.getMonth() + "/"
 										  + deCand.getYear() +
-		       ", Perioada: " + perioada + "zile.";
+		       ", Perioada maxima: " + perioada + " zile.";
 	}
 }
