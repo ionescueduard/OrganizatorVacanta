@@ -5,7 +5,7 @@ public class Oras {
 	public ArrayList<Locatie> locatii;
 	
 	public Oras(String nume) {
-		this.oras = nume;
+		this.oras = nume; 
 		locatii = new ArrayList<Locatie>();
 	}
 	
